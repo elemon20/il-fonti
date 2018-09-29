@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,800,900');
+
+@import "assets/vendor/sass/_reset.scss";
+@import "assets/vendor/sass/mixins.scss";
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+}
+
+.back-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: auto;
+
+}
+
+section {
+  padding: 0 20px;
+}
+
+.rect-outer {
+  position: relative;
+  .rect-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+  }
+}
+
+
+@import "vendor/sass/partials/_section-intro";
+@import "vendor/sass/partials/_section-features-list";
